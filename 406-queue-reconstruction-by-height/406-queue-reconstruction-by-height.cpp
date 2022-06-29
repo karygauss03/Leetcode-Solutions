@@ -1,5 +1,5 @@
 class FenwickTree {
-    std::vector<int> val;
+    vector<int> val;
     int SIZE;
     
 public:
@@ -8,7 +8,7 @@ public:
         while (s < n) {
             s <<= 1;
         }
-        val = std::vector<int>(s + 1, 0);
+        val = vector<int>(s + 1, 0);
         SIZE = s + 1;
     }
 
@@ -47,7 +47,7 @@ private:
 class Solution {
 public:
     vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
-        std::sort(people.begin(), people.end(), [](auto &a, auto &b) {
+        sort(people.begin(), people.end(), [](auto &a, auto &b) {
             if (a[0] != b[0]) {
                 return a[0] < b[0];
             }
@@ -59,7 +59,7 @@ public:
             ft.update(i, 1);
         }
         
-        std::vector<std::vector<int>> ans(people.size());
+        vector<std::vector<int>> ans(people.size());
         for (auto &p : people) {
             int blanks_needed = p[1] + 1;
             int idx = ft.lower_bound(blanks_needed);
