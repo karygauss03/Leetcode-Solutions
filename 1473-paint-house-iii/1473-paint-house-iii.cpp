@@ -1,11 +1,8 @@
-#define vvi vector<vector<int>>
-#define vi vector<int>
-
 int dp[105][22][105];
 
 class Solution {
 public:
-    int solve(vi& houses, vvi& cost, int m, int n, int target, int used, int start) {      
+    int solve(vector<int>& houses, vector<vector<int>>& cost, int m, int n, int target, int used, int start) {
         // cout << target << " " << " " << " " << start << endl;
         if(target == 0) {
             if(start == m) return 0;
@@ -29,7 +26,7 @@ public:
         return dp[target][used][start] = mincost;
     }
 
-    int minCost(vi& houses, vvi& cost, int m, int n, int target) {
+    int minCost(vector<int>& houses, vector<vector<int>>& cost, int m, int n, int target) {
         memset(dp,-1,sizeof dp);
         int res = solve(houses,cost,m,n,target,21,0);
         if(res >= 1e9) return -1;
