@@ -10,24 +10,20 @@
  * };
  */
 
-vector<int> ans;
-map<TreeNode*, bool> vis;
-void dfs(TreeNode* node){
-    if (vis[node]) return;
-    if (node == NULL) return;
-    vis[node] = true;
-    ans.push_back(node->val);
-    dfs(node->left);
-    dfs(node->right);
-}
 
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
-        ans.clear();
-        
-        if (root == NULL) return {};
-        dfs(root);
+        stack<TreeNode *> stk;
+        vector<int> ans;
+        for (auto cur = root; cur || !stk.empty();) {
+            for (; cur; cur = cur->left) {
+                ans.emplace_back(cur->val);
+                stk.emplace(cur);
+            }
+            cur = stk.top()->right;
+            stk.pop();
+        }
         return ans;
     }
 };
