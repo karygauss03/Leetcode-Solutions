@@ -12,26 +12,20 @@
 class Solution {
 private:
     int ans;
-    int cnt;
-    int dfs(TreeNode* root){
-        if (root == nullptr) return 0;
-        cnt++;
-        return root->val + dfs(root->left) + dfs(root->right);
-    }
-    void dfs2(TreeNode* root){
-        if (root == nullptr) return;
-        cnt = 0;
-        int sum = dfs(root);
-        if (sum / cnt == root->val){
-            ans++;
-        }
-        dfs2(root->left);
-        dfs2(root->right);
+    pair<int, int> dfs(TreeNode* root){
+        if (root == nullptr) return {0, 0};
+        int sum = 0, cnt = 0;
+        auto left = dfs(root->left);
+        auto right = dfs(root->right);
+        sum = root->val + left.first + right.first;
+        cnt = left.second + right.second + 1;
+        if (sum / cnt == root->val) ans++;
+        return {sum, cnt};
     }
 public:
     int averageOfSubtree(TreeNode* root) {
         if (root == nullptr) return 0;
-        dfs2(root);
+        auto x = dfs(root);
         return ans;
     }
 };
