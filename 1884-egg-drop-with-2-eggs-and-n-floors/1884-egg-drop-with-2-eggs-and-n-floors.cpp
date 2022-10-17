@@ -1,17 +1,19 @@
-class Solution {
+class Solution{
 public:
-    int twoEggDrop(int n) {
-        vector<vector<int>> dp(2,vector<int>(n + 1,INT_MAX-1)); // dp[i][j] => we have egg j at floor i
-        dp[0][0] = 0;
-        dp[1][0] = 0;
-        for (int i = 1 ; i <= n ; i++){
-            dp[0][i] = i;
-        }
-        for (int i = 1 ; i <= n ; i++){
-            for (int j = 1 ; j <= i ; j++){
-                dp[1][i] = min(max(dp[0][j - 1],dp[1][i - j]) + 1, dp[1][i]);    
-            }
-        }
-        return dp[1][n];
+    int dp[3][1001];
+    int solve(int e, int f){
+        if (f <= 1 || e == 1)
+            return f;
+        if (dp[e][f] != -1)
+            return dp[e][f];
+        int mn = INT_MAX;
+        for (int i = 1; i <= f; i++)
+            mn = min(mn, 1 + max(solve(e - 1, i - 1), solve(e, f - i)));
+        dp[e][f] = mn;
+        return mn;
+    }
+    int twoEggDrop(int n){
+        memset(dp, -1, sizeof(dp));
+        return solve(2, n);
     }
 };
