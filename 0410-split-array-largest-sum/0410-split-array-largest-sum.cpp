@@ -1,41 +1,37 @@
 class Solution {
 public:
-    int splitArray(vector<int>& nums, int m) {
-        
-        int n = nums.size();
-        int left = 0, right = 0;
-        //Left will store the maximum element in the array which is the minimum ans value
-        //Right will store the sum of all elements in the array which is the maximum ans value
-        for (int i = 0 ; i < n ; i++){
-            left = max(left, nums[i]);
-            right += nums[i];
-        }
-        
-        int ans = 0, mid, cnt, tempSum;
-        while (left <= right){
-            mid = left + (right - left) / 2;
-            cnt = 0, tempSum = 0;
-            
-            for (int i = 0 ; i < n ; i++){
-                if (tempSum + nums[i] <= mid){
-                    tempSum += nums[i];
-                }
-                else {
-                    cnt++;
-                    tempSum = nums[i];
-                }
+    int get_min_subarrays(vector<int>&nums, int mid){
+        int sum = 0, min_subbarays = 1;
+        for(auto &x : nums){
+            if (x + sum <= mid){
+                sum += x;
             }
-            cnt++;
-            if (cnt <= m){
-                ans = mid;
+            else {
+                sum = x;
+                min_subbarays++;
+            }
+        }
+        return min_subbarays;
+    }
+    int splitArray(vector<int>& nums, int k) {
+        int n = nums.size();
+        int right = 0, left = 0;
+        for (auto &x : nums){
+            left = max(left, x);
+            right += x;
+        }
+        int ans = 0;
+        while(left <= right){
+            int mid = (left + right) / 2;
+            int cur_min = get_min_subarrays(nums, mid);
+            if (cur_min <= k){
                 right = mid - 1;
+                ans = mid;
             }
             else {
                 left = mid + 1;
             }
         }
-        
         return ans;
     }
-    
 };
