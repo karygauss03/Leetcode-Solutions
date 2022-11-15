@@ -11,15 +11,16 @@
  */
 class Solution {
 public:
-    int ans = 0;
-    void dfs(TreeNode* node){
-        if (node == nullptr) return;
-        ans++;
-        if (node->left != nullptr) dfs(node->left);
-        if (node->right != nullptr) dfs(node->right);
-    }
-    int countNodes(TreeNode* root) {
-        dfs(root);
-        return ans;
+    int countNodes(TreeNode* root, int l = 1, int r = 1) 
+    {
+        if (!root) return 0;
+
+        TreeNode *left = root, *right = root;
+        while (left = left->left)   ++l; 
+        while (right = right->right) ++r; 
+        
+        if (l == r) return (1 << l) - 1;
+        
+        return 1 + countNodes(root->left) + countNodes(root->right);
     }
 };
