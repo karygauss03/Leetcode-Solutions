@@ -1,28 +1,42 @@
 class Solution {
 public:
-    int dp[105][105];
-    int suff[105];
-
-    int solve(vector<int>& piles, int i, int m){
-        if (i == piles.size()) return 0;
-        if (2 * m >= piles.size() - i) return suff[i];
-        if (dp[i][m] != -1) return dp[i][m];
-        int mn = INT_MAX;
-        for (int j = 1 ; j <= 2 * m ; j++){
-            mn = min(mn, solve(piles, i + j, max(j, m)));
+    int dp[105][105][3];
+    int pref[205];
+    
+    int query(int l, int r){
+        if(l == 0) return pref[r];
+        return pref[r] - pref[l - 1];
+    }
+    
+    int solve(vector<int>& piles, int i, int m, int player){
+        if (i >= piles.size()) return 0;
+        if (dp[i][m][player] != -1) return dp[i][m][player];
+        
+        if (player == 1){
+            int ans = 0;
+            for (int j = 0 ; j < 2*m ; j++){
+                ans = max(ans, query(i, i + j) + solve(piles, i + j + 1, max(m, j + 1), 2));
+            }
+            return dp[i][m][player] = ans;
         }
-        return dp[i][m] = suff[i] - mn;
+        else {
+            int ans = INT_MAX;
+            for (int j = 0 ; j < 2*m ; j++){
+                ans = min(ans, solve(piles, j + i + 1, max(m, j + 1), 1));
+            }
+            if (ans == INT_MAX) ans = 0;
+            return dp[i][m][player] = ans;
+        }
     }
     
     int stoneGameII(vector<int>& piles) {
         if (piles.size() == 1) return piles[0];
         if (piles.size() == 0) return 0;
-        suff[piles.size() - 1] = piles[piles.size() - 1];
-        for (int i = piles.size() - 2 ; i >= 0 ; i--){
-            suff[i] = suff[i + 1] + piles[i];
+        pref[0] = piles[0];
+        for (int i = 1 ; i < piles.size() ; i++){
+            pref[i] = pref[i - 1] + piles[i];
         }
         memset(dp, -1, sizeof dp);
-        solve(piles, 0, 1);
-        return dp[0][1];
+        return solve(piles, 0, 1, 1);
     }
 };
