@@ -14,7 +14,6 @@ public:
         n = maze.size();
         m = maze[0].size();
         int entrance_x = entrance[0], entrance_y = entrance[1];
-        int ans = 0;
         int dx[4] = {0, 0, 1, -1};
         int dy[4] = {1, -1, 0, 0};
         queue<pair<pair<int,int>, int>> q;
