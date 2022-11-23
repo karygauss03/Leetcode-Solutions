@@ -1,34 +1,41 @@
 class Solution {
 public:
     int n;
-    int solve(vector<int>& nums, int L, int R){
-        int ans = 0;
-        vector<int> pref(n + 1), suff(n + 1);
-        for (int i = 0, j = n - 1, cur_left = 0, cur_right = 0; i < n , j >= 0 ; i++ , j--){
-            cur_left += nums[i];
-            pref[i + 1] = max(pref[i], cur_left);
-            cur_right += nums[j];
-            suff[j] = max(suff[j + 1], cur_right);
-            if (i + 1 >= L) cur_left -= nums[i + 1 - L];
-            if (i + 1 >= R) cur_right -= nums[j + R - 1];
-            
+    //dp_left[i] => maximum subarray sum of size L from 0 -> index i
+    //dp_right[i] => maximum subarray sum of size M from last index -> index i
+    
+    int solve(vector<int>& A, int L, int M){
+        int sum = 0;
+        vector<int> dp_left(n, 0), dp_right(n, 0);
+        for(int i = 0 ; i < n ; i++){
+            if (i < L){
+                sum += A[i];
+                dp_left[i] = sum;
+            }
+            else {
+                sum += (A[i] - A[i - L]);
+                dp_left[i] = max(dp_left[i - 1], sum);
+            }
         }
-        for (int i = 0 ; i < n ; i++){
-            ans = max(ans, pref[i] + suff[i]);
+        sum = 0;
+        for (int i = n - 1 ; i >= 0 ; i--){
+            if (i + M > n - 1){
+                sum += A[i];
+                dp_right[i] = sum;
+            }
+            else {
+                sum += (A[i] - A[i + M]);
+                dp_right[i] = max(dp_right[i + 1], sum);
+            }
+        }
+        int ans = 0;
+        for (int i = L - 1 ; i < n - M; i++){
+            ans = max(ans, dp_left[i] + dp_right[i + 1]);
         }
         return ans;
     }
-    
-    int maxSumTwoNoOverlap(vector<int>& nums, int firstLen, int secondLen) {
-        n = nums.size();
-        vector<int> pref(n);
-        pref[0] = nums[0];
-        for (int i = 1 ; i < n ; i++) pref[i] = pref[i - 1] + nums[i];
-        vector<int> suff(n);
-        suff[n - 1] = nums[n - 1];
-        for (int i = n - 2 ; i >= 0 ; i--) suff[i] = suff[i + 1] + nums[i];
-        // Case 1: firstLen before secondLen
-        //Case2: secondLen before firstLen
-        return max(solve(nums, firstLen, secondLen), solve(nums, secondLen, firstLen));
+    int maxSumTwoNoOverlap(vector<int>& A, int L, int M) {
+        n = A.size();
+        return max(solve(A, L, M), solve(A, M, L));
     }
 };
