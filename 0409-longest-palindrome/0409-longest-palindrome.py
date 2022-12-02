@@ -9,11 +9,11 @@ class Solution:
                 occ[s[i]] += 1
             else:
                 occ[s[i]] = 1
-        for x in occ :
-            if occ[x] % 2 == 0 :
-                longueur += occ[x]
+        for x in occ.values():
+            if x % 2 == 0 :
+                longueur += x
             else:
-                longueur += occ[x] - 1
+                longueur += x - 1
         if longueur != n:
             longueur = longueur + 1
         return longueur
