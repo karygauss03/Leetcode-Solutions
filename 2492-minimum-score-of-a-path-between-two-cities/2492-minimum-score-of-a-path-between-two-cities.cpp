@@ -1,38 +1,29 @@
 class Solution {
 public:
-    int minScore(int n, vector<vector<int>>& roads) 
-    {
-        vector<vector<int>> adj[n+1];
-        for(int i=0;i<roads.size();i++)
-        {
-            adj[roads[i][0]].push_back({roads[i][1],roads[i][2]});
-            adj[roads[i][1]].push_back({roads[i][0],roads[i][2]});
+    vector<vector<pair<int, int>>>adj;
+    int minScore(int n, vector<vector<int>>& roads) {
+        adj.resize(n + 1);
+        
+        for(vector<int>edge : roads){
+            adj[edge[0]].push_back({edge[1], edge[2]});
+            adj[edge[1]].push_back({edge[0], edge[2]});
         }
-        vector<bool> vis(n+1,false);
-        vis[1] = true;
-        queue<int> q;
-        q.push(1);
 
-        while(!q.empty())
-        {
-            int node = q.front();
-            q.pop();
-
-            for(auto &it : adj[node])
-            {
-                if(!vis[it[0]])
-                {
-                    vis[it[0]] = true;
-                    q.push(it[0]);
+        vector<long>dist(n + 1, INT_MAX);
+        dist[1] = 0;
+        priority_queue<pair<int, int>>pq;
+        pq.push({0, 1});
+        long ans = INT_MAX;
+        while(!pq.empty()){
+            auto top = pq.top();
+            pq.pop();
+            int node = top.second;
+            for(pair<int, int> child : adj[node]){
+                if(dist[child.first] > -dist[node] + child.second){
+                    dist[child.first] = -dist[node] + child.second;
+                    ans = min(ans, (long)child.second);
+                    pq.push({-dist[child.first], child.first, });
                 }
-            }
-        }
-        int ans = INT_MAX;
-        for(int i=0;i<roads.size();i++)
-        {
-            if(vis[roads[i][0]] && vis[roads[i][1]])
-            {
-                ans = min(ans,roads[i][2]);
             }
         }
         return ans;
