@@ -2,29 +2,20 @@ class Solution {
 public:
     const int mod = 1e9 + 7;
     long dp[100001];
-    long solve(int idx, string &s, int k){
-        if (idx == s.size())
-            return 1;
-
-        if (dp[idx] != -1)
-            return dp[idx];
-
-        long sum = 0, ans = 0;
-        for (int i = idx; i < s.size(); ++i)
-        {
-            sum = (sum * 10 + (s[i] - '0'));
-            if (sum >= 1 and sum <= k)
-                ans = (ans + solve(i + 1, s, k));
-            else
-                break;
+    int n;
+    int numberOfArrays(string s, int k) {
+        n = s.size();
+        dp[n] = 1;
+        for (int i = n - 1; i >= 0; --i) {
+            long cur = 0, tmp = 0;
+            for (int j = i ; j < s.size() ; ++j) {
+                cur = (cur * 10) + (s[j] - '0');
+                if (cur < 1 || cur > k)
+                    break;
+                tmp = (tmp + dp[j + 1]);
+            }
+            dp[i] = tmp % mod;
         }
-
-        return dp[idx] = ans % mod;
-    }
-
-    int numberOfArrays(string s, int k)
-    {
-        memset(dp, -1, sizeof(dp));
-        return solve(0, s, k);
+        return dp[0];
     }
 };
