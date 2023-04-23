@@ -10,7 +10,7 @@ public:
             return dp[idx];
 
         long sum = 0, ans = 0;
-        for (int i = idx; i < s.size(); i++)
+        for (int i = idx; i < s.size(); ++i)
         {
             sum = (sum * 10 + (s[i] - '0'));
             if (sum >= 1 and sum <= k)
