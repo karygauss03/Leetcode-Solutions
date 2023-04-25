@@ -1,37 +1,25 @@
 class SmallestInfiniteSet {
 public:
+    set<int> infiniteSet;
+    int cur;
     SmallestInfiniteSet() {
-        current_smallest_infinite = 1;
+        infiniteSet.insert(1);
+        cur = 2;
     }
     
     int popSmallest() {
-        if(!pq.empty())
-        {
-            int res = pq.top();
-            pq.pop();
-            removed[res] = 1;
-            return res;
+        int smallestElement = *infiniteSet.begin();
+        infiniteSet.erase(smallestElement);
+        if (infiniteSet.size() == 0) {
+            infiniteSet.insert(cur++);
         }
-        else
-        {
-            int res = current_smallest_infinite;
-            current_smallest_infinite++;
-            removed[res] = 1;
-            return res;
-        }
+        return smallestElement;
     }
     
     void addBack(int num) {
-        if(removed[num] != 0)
-        {
-            removed[num] = 0;
-            pq.push(num);
-        }
+        if (num < cur)
+            infiniteSet.insert(num);
     }
-    
-    unordered_map <int, int> removed;
-    int current_smallest_infinite;
-    priority_queue<int, vector<int>, greater<int>> pq;
 };
 
 /**
