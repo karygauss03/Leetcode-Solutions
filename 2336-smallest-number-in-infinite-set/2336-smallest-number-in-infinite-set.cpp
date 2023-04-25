@@ -1,20 +1,20 @@
 class SmallestInfiniteSet {
 public:
-    set<int> infiniteSet;
+    map<int, int> infiniteSet;
     SmallestInfiniteSet() {
         for(int i = 1; i <= 1000; i++) {
-            infiniteSet.insert(i);
+            infiniteSet[i]++;
         }
     }
     
     int popSmallest() {
-        int smallestElement = *infiniteSet.begin();
+        int smallestElement = infiniteSet.begin()->first;
         infiniteSet.erase(smallestElement);
         return smallestElement;
     }
     
     void addBack(int num) {
-        infiniteSet.insert(num);
+        infiniteSet[num]++;
     }
 };
 
