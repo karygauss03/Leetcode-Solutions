@@ -1,11 +1,12 @@
 class Solution {
 public:
     int arraySign(vector<int>& nums) {
-        int neg = 0;
-        for (int i = 0 ; i < nums.size(); i++){
-            if (nums[i] == 0) return 0;
-            if (nums[i] < 0) neg++;
+        int a = 1;
+        for(auto i : nums){
+            if(i==0) return 0;
+            else if(i>0) a *=1;
+            else a *= -1;
         }
-        return neg%2 == 0 ? 1 : -1;
+        return a;
     }
 };
