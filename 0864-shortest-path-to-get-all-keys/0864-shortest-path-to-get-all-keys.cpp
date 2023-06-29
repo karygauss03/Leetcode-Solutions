@@ -39,7 +39,7 @@ public:
         int ans = 0;
         while (!q.empty()) {
             int sz = q.size();
-            for (int k = 0; k < sz ; ++k) {
+            for (int k = 0; k < sz; ++k) {
                 int r = q.front().i;
                 int c = q.front().j;
                 int state = q.front().state;
