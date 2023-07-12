@@ -19,7 +19,7 @@ public:
     
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         int n = graph.size();
-        col.resize(10005, 0);
+        col.resize(n, 0);
         for (int i = 0; i < n ; ++i) {
             if (dfs(graph, i)) {
                 ans.push_back(i);
