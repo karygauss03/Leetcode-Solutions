@@ -1,12 +1,17 @@
 class Solution {
 public:
     int kthGrammar(int n, int k) {
-        if (n == 1) return 0;
-        if (!(k & 1)) {
-            return kthGrammar(n - 1, k / 2) == 0 ? 1 : 0;
+        int ans = 0, l = 0, r = (1 << n) - 1, mid;
+        while (l < r) {
+            mid = l +  (r - l) / 2;
+            if (k - 1 <= mid) {
+                r = mid;
+            }
+            else {
+                l = ++mid;
+                ans ^= 1;
+            }
         }
-        else {
-            return kthGrammar(n - 1, (k + 1) / 2) == 0 ? 0 : 1;
-        }
+        return ans;
     }
 };
