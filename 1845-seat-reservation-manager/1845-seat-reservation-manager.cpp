@@ -1,22 +1,20 @@
 class SeatManager {
 private:
-    set<int> availableSeats;
+    bitset<100000> res;
 public:
     SeatManager(int n) {
-        availableSeats.clear();
-        for (int i = 1 ; i <= n ; ++i) {
-            availableSeats.insert(i);
-        }
+        res.set();
     }
     
     int reserve() {
-        int availableSeat = *availableSeats.begin();
-        availableSeats.erase(availableSeats.begin());
-        return availableSeat;
+        int pos = res._Find_first();
+        res.reset(pos);
+        return pos+1;
     }
     
     void unreserve(int seatNumber) {
-        availableSeats.insert(seatNumber);
+        
+        res.set(seatNumber - 1);
     }
 };
 
