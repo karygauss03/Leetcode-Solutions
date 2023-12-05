@@ -1,21 +1,30 @@
 class Solution {
 public:
     int longestSubarray(vector<int>& nums, int limit) {
-        int ans = 1;
-        multiset<int> min_maxTrack;
-        min_maxTrack.insert(nums[0]);
-        int l = 0;
-        for (int r = 1 ; r < nums.size() ; ++r) {
-            min_maxTrack.insert(nums[r]);
-            if (*min_maxTrack.rbegin() - *min_maxTrack.begin() <= limit) {
-                ans = max(ans, r - l + 1);
-                continue;
+        int ans = 0;
+        deque<int> mx, mn;
+        int l = 0, r = 0;
+        for (r = 0 ; r < nums.size() ; ++r) {
+            while (!mx.empty() && nums[r] > mx.back()) {
+                mx.pop_back();
             }
-            while(*min_maxTrack.rbegin() - *min_maxTrack.begin() > limit) {
-                auto it = min_maxTrack.find(nums[l]);
-                min_maxTrack.erase(it);
+            mx.push_back(nums[r]);
+            
+            while (!mn.empty() && nums[r] < mn.back()) {
+                mn.pop_back();
+            }
+            mn.push_back(nums[r]);
+            
+            if (mx.front() - mn.front() > limit) {
+                if (nums[l] == mx.front()) {
+                    mx.pop_front();
+                }
+                if (nums[l] == mn.front()) {
+                    mn.pop_front();
+                }
                 ++l;
             }
+            
             ans = max(ans, r - l + 1);
         }
         return ans;
