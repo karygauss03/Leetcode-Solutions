@@ -1,22 +1,23 @@
 class Solution {
 public:
+    int dp[100005];
     int constrainedSubsetSum(vector<int>& nums, int k) {
-        vector<int> dp {nums[0]};
-        deque<int> decrease {nums[0]};
-        int res = nums[0];
-        
-        for (int i=1; i<nums.size(); i++) {
-            if (i > k && decrease[0] == dp[i - k - 1])
-                decrease.pop_front();
-            int tmp = max(nums[i], decrease[0] + nums[i]);
-            dp.push_back(tmp);
-            while (!decrease.empty() && decrease.back() < tmp)
-                decrease.pop_back();
-            decrease.push_back(tmp);
-            
-            res = max(res, tmp);
+        memset(dp, 0, sizeof dp);
+        deque<int> q;
+        int ans = INT_MIN;
+        for (int i = 0; i < nums.size(); ++i) {
+            dp[i] = nums[i] + (!q.empty() ? q.front() : 0);
+            ans = max(ans, dp[i]);
+            while (!q.empty() && dp[i] > q.back()) {    
+                q.pop_back();
+            }
+            if (dp[i] > 0) {
+                q.push_back(dp[i]);
+            }
+            if (!q.empty() && i - k >= 0 && q.front() == dp[i - k]) {
+                q.pop_front();
+            }
         }
-        return res;
-        
+        return ans;
     }
 };
