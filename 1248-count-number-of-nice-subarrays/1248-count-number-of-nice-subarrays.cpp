@@ -1,19 +1,22 @@
 class Solution {
-public:
-    int numberOfSubarrays(vector<int>& nums, int k) {
-        for (int &num : nums) {
-            num %= 2;
-        }
-        unordered_map<int, int> mp;
-        mp[0] = 1;
-        int prefixSum = 0, ans = 0;
-        for (int i = 0; i < nums.size() ; ++i) {
-            prefixSum += nums[i];
-            if (mp.find(prefixSum - k) != mp.end()) {
-                ans += mp[prefixSum - k];
+private:
+    int solve(vector<int> &nums, int k) {
+        int ans = 0;
+        int l = 0, r = 0;
+        while (r < nums.size()) {
+            k -= nums[r] % 2;
+            while (k < 0) {
+                k += nums[l] % 2;
+                ++l;
             }
-            mp[prefixSum]++;
+            ans += r - l + 1;
+            ++r;
         }
         return ans;
+    }
+
+public:
+    int numberOfSubarrays(vector<int>& nums, int k) {
+        return solve(nums, k) - solve(nums, k - 1);
     }
 };
