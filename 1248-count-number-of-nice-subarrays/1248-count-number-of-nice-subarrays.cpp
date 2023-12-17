@@ -4,9 +4,9 @@ private:
         int ans = 0;
         int l = 0, r = 0;
         while (r < nums.size()) {
-            k -= nums[r] % 2;
+            k -= (nums[r] & 1);
             while (k < 0) {
-                k += nums[l] % 2;
+                k += (nums[l] & 1);
                 ++l;
             }
             ans += r - l + 1;
