@@ -11,26 +11,23 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode* node, vector<string>& paths, string path = "") {
+    string ans = "~";
+    void dfs(TreeNode* node, string path = "") {
         if (node == nullptr) {
             return;
         }
-        path += 'a' + node->val;
         if (node->left == nullptr && node->right == nullptr) {
-            reverse(path.begin(), path.end());
-            paths.push_back(path);
-            return;
+            ans = min(ans, char('a' + node->val) + path);
         }
-        dfs(node->left, paths, path);
-        dfs(node->right, paths, path);
+        
+        dfs(node->left, char(node->val + 'a') + path);
+        dfs(node->right, char(node->val + 'a') + path);
     }
     string smallestFromLeaf(TreeNode* root) {
         if (root == nullptr) {
             return "";
         }
-        vector<string> paths;
-        dfs(root, paths);
-        sort(paths.begin(), paths.end());
-        return paths[0];
+        dfs(root);
+        return ans;
     }
 };
