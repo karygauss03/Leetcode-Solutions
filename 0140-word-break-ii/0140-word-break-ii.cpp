@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<string> ans;
-    unordered_map<string, int> dict;
+    unordered_set<string> dict;
     
     void solve(string& s, int start, string cur = "") {
         if (start == s.size()) {
@@ -20,7 +20,7 @@ public:
     
     vector<string> wordBreak(string s, vector<string>& wordDict) {
         for (auto &word : wordDict) {
-            dict[word] = 1;
+            dict.insert(word);
         }
         solve(s, 0);
         return ans;
