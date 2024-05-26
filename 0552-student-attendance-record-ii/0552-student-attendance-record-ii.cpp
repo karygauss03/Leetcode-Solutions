@@ -2,26 +2,32 @@ class Solution {
 public:
     const static int MOD = 1e9 + 7;
     int dp[100005][2][3];
-    
-    int solve(int n, int days, int abs, int late) {
-        if (days == n) {
-            return 1;
-        }
-        if (dp[days][abs][late] != -1) {
-            return dp[days][abs][late];
-        }
-        long long ans = 0;
-        ans += (solve(n, days + 1, abs, 0));
-        if (abs < 1){
-            ans += (solve(n, days + 1, abs + 1, 0));
-        }
-        if (late < 2) {
-            ans += (solve(n, days + 1, abs, late + 1));
-        }
-        return dp[days][abs][late] =  ans % MOD;
-    }
     int checkRecord(int n) {
-        memset(dp, -1, sizeof dp);
-        return solve(n, 0, 0, 0);
+        memset(dp, 0, sizeof dp);
+        dp[0][0][0] = 1;
+        
+        for (int i = 0; i < n; ++i) {
+            for (int abs = 0; abs <= 1; ++abs) {
+                for (int late = 0; late <= 2; ++late) {
+                    dp[i + 1][abs][0] = (dp[i + 1][abs][0] + dp[i][abs][late]) % MOD; 
+                    
+                    if (abs < 1) {
+                        dp[i + 1][abs + 1][0] = (dp[i + 1][abs + 1][0] + dp[i][abs][late]) % MOD;
+                    }
+
+                    if (late < 2) {
+                        dp[i + 1][abs][late + 1] = (dp[i + 1][abs][late + 1] + dp[i][abs][late]) % MOD;
+                    }
+                }
+            }
+        }
+        int ans = 0;
+        for(int abs = 0; abs <= 1; ++abs) {
+            for (int late = 0; late <= 2; ++late) {
+                ans = (ans + dp[n][abs][late]) % MOD;
+            }
+        }
+        
+        return ans;
     }
 };
