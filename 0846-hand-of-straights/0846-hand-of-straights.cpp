@@ -1,31 +1,27 @@
 class Solution {
 public:
     bool isNStraightHand(vector<int>& hand, int groupSize) {
-        int n = hand.size();
-        if (n % groupSize != 0) {
+        if (hand.size() % groupSize != 0) {
             return false;
         }
-        if (groupSize == 1) {
-            return true;
+        map<int, int> freq;
+        for (auto &h : hand) {
+            freq[h]++;
         }
-        int k = n / groupSize;
-        int done = 0;
-        sort(hand.begin(), hand.end());
-        queue<pair<int, int>> q;
-        pair<int, int> fr;
-        for (int i = 0; i < n; i++) {
-            if (q.empty() || q.front().first + 1 != hand[i]) {
-                q.push({hand[i], 1});
-                continue;
-            }
-            fr = q.front();
-            q.pop();
-            if (fr.second != groupSize - 1) {
-                q.push({hand[i], fr.second + 1});
-            } else {
-                done++;
+        while (!freq.empty()) {
+            int min_val = freq.begin()->first;
+            
+            for (int i = 0; i < groupSize; ++i) {
+                if (freq.find(min_val + i) == freq.end()) {
+                    return false;
+                }
+                freq[min_val + i]--;
+                if (freq[min_val + i]<1) {
+                    freq.erase(min_val + i);
+                }
             }
         }
-        return (done == k);
+        
+        return true;
     }
 };
