@@ -1,17 +1,17 @@
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
-        int prev = nums[0], cur, ans = 0;
-        for (int i = 1; i < nums.size(); ++i) {
-            cur = nums[i];
-            if (cur > prev) {
-                prev = cur;
+        int mx = *max_element(nums.begin(), nums.end()), ans = 0;
+        vector<int> freq(nums.size() + mx + 1, 0);
+        for (auto &n : nums) {
+            freq[n]++;
+        }
+        for (int i = 0; i < freq.size(); ++i) {
+            if (freq[i] <= 1) {
                 continue;
             }
-            nums[i] += (prev - cur + 1);
-            ans += (prev - cur + 1);
-            prev = nums[i];
+            freq[i + 1] += (freq[i] - 1);
+            ans += (freq[i] - 1);
         }
         return ans;
     }
