@@ -18,7 +18,7 @@ private:
     }
 public:
     int minDays(vector<int>& bloomDay, int m, int k) {
-        int left = 0, right = *max_element(bloomDay.begin(), bloomDay.end());
+        int left = *min_element(bloomDay.begin(), bloomDay.end()), right = *max_element(bloomDay.begin(), bloomDay.end());
         int ans = -1, mid, cur;
         while (left <= right) {
             mid = (right + left) / 2;
