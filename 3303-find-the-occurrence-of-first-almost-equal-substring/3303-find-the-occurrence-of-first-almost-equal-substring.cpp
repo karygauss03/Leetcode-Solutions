@@ -1,126 +1,118 @@
-#include <bits/stdc++.h>
-
+#include <vector>
+#include <string>
 using namespace std;
 
-class StringHashing {
-    public:
-        /*
-            4 possible values => first 2 primes greater than 4 are 5 and 7 => a1=5 a2=7;
-            h[0] = s[0]-'A'
-            h[k] = (h[k-1]*a + s[k]-'A')%m
-
-            p[0] = 1
-            p[k] = (p[k-1]*a)%m
-
-            substr(a, b) = (h[b] - h[a-1]*p[b-a+1])%m
-        */
-
-        int a1 = 5, a2 = 7, m1 = 1e9 + 7, m2 = 1e9 + 9;
-        vector<int> k1;
-        vector<int> k2;
-        vector<int> p1;
-        vector<int> p2;
-        string s;
-        int n;
-
-        StringHashing(string str) {
-            s = str;
-            n = s.size();
-            k1.resize(n);
-            k2.resize(n);
-            p1.resize(n);
-            p2.resize(n);
-
-            fill(k1.begin(), k1.end(), 0);
-            fill(k2.begin(), k2.end(), 0);
-            fill(p1.begin(), p1.end(), 0);
-            fill(p2.begin(), p2.end(), 0);
-        
-            build();
-        }
-
-        void generate_hash_data(vector<int> &k, vector<int> &p, int a, int m)
-        {
-            k[0] = s[0]-'a'+1;
-            p[0] = 1;
-            int n = s.size();
-            for (int i=1 ; i<n ; i++)
-            {
-                k[i] = (k[i-1]*1ll*a + s[i]-'a'+1)%m;
-                p[i] = (p[i-1]*1ll*a)%m;
-            }
-        }
-
-        void build() {
-            int n = s.size();
-            generate_hash_data(k1, p1, a1, m1);
-            generate_hash_data(k2, p2, a2, m2);
-        }
-
-        int get(vector<int> &k, vector<int> &p, int &m, int a, int b) {
-            int res = k[b];
-            if (a)
-                res = (res - k[a-1]*1ll*p[b-a+1])%m;
-
-            if (res < 0)
-                res += m;
-
-            return res;
-        }
-
-        int get1(int a, int b) {
-            return get(k1, p1, m1, a, b);
-        }
-
-        int get2(int a, int b) {
-            return get(k2, p2, m2, a, b);
-        }
-};
-
 class Solution {
-public:
-    int minStartingIndex(string ch, string p) {
-        int n = ch.size();
-        int m = p.size();
+private:
+    const long long MOD = 1e9 + 7;
+    const long long P = 701;  // A base for polynomial hashing
 
-        StringHashing hs = StringHashing(ch);
-        StringHashing hp = StringHashing(p);
+    // Arrays to store precomputed powers and modular inverses of P
+    vector<long long> p_powers, p_inverses;
 
-        for (int i=0 ; i<=n-m ; i++) {
-            int s = 0;
-            int e = m;
+    // Precompute powers of P and their modular inverses
+    void precompute_powers_and_inverses(int n) {
+        p_powers.resize(n + 1);
+        p_inverses.resize(n + 1);
+        p_powers[0] = 1;
 
-            while(s<e) {
-                int l = (s+e+1)/2;
-                int sg1 = hs.get1(i, i+l-1);
-                int sg2 = hs.get2(i, i+l-1);
+        // Calculate p^i mod MOD for i = 0 to n
+        for (int i = 1; i <= n; ++i) {
+            p_powers[i] = (p_powers[i - 1] * P) % MOD;
+        }
 
-                int pg1 = hp.get1(0, l-1);
-                int pg2 = hp.get2(0, l-1);
+        // Fermat's Little Theorem for calculating modular inverse of p^n mod MOD
+        p_inverses[n] = modInverse(p_powers[n], MOD);
+        for (int i = n - 1; i >= 0; --i) {
+            p_inverses[i] = (p_inverses[i + 1] * P) % MOD;
+        }
+    }
 
-                if (pg1 == sg1 && pg2 == sg2) {
-                    s = l;
-                } else {
-                    e = l-1;
+    // Function to calculate modular inverse using binary exponentiation
+    long long modInverse(long long base, long long exp) {
+        long long result = 1;
+        while (exp > 0) {
+            if (exp % 2 == 1) result = (result * base) % MOD;
+            base = (base * base) % MOD;
+            exp /= 2;
+        }
+        return result;
+    }
+
+    // Function to calculate prefix hashes for a string
+    vector<long long> precompute_hashes(const string& s) {
+        int n = s.size();
+        vector<long long> prefix_hashes(n + 1, 0);
+        for (int i = 0; i < n; ++i) {
+            prefix_hashes[i + 1] = (prefix_hashes[i] + (s[i] - 'a' + 1) * p_powers[i]) % MOD;
+        }
+        return prefix_hashes;
+    }
+
+    // Function to get the hash of a substring s[l:r+1]
+    long long get_substring_hash(int l, int r, const vector<long long>& prefix_hashes) {
+        long long hash_value = (prefix_hashes[r + 1] - prefix_hashes[l] + MOD) % MOD;
+        return (hash_value * p_inverses[l]) % MOD;
+    }
+
+    // Function to count the number of differences between two substrings using binary splitting
+    int countDifferences(int l1, int r1, int l2, int r2, const string& s, const string& pattern, const vector<long long>& shashes, const vector<long long>& phashes) {
+        int differences = 0;
+        vector<tuple<int, int, int, int>> stack = {{l1, r1, l2, r2}};
+
+        while (!stack.empty()) {
+            auto [left1, right1, left2, right2] = stack.back();
+            stack.pop_back();
+
+            if (left1 > right1) continue;
+
+            // Get the hash of the current substrings
+            long long s_hash = get_substring_hash(left1, right1, shashes);
+            long long p_hash = get_substring_hash(left2, right2, phashes);
+
+            // If the hashes match, skip further checking
+            if (s_hash == p_hash) continue;
+
+            // If comparing single characters, count the difference
+            if (left1 == right1 && left2 == right2) {
+                if (s[left1] != pattern[left2]) {
+                    differences++;
+                    if (differences > 1) return differences;  // Early exit
                 }
+                continue;
             }
 
-            if (s >= m-1)
-                return i;
+            // Split the range and check both halves
+            int mid1 = (left1 + right1) / 2;
+            int mid2 = (left2 + right2) / 2;
 
-            int j = i+s+1;
-            int r = m-s-1;
-            int sg1 = hs.get1(j, j+r-1);
-            int sg2 = hs.get2(j, j+r-1);
+            stack.push_back({left1, mid1, left2, mid2});
+            stack.push_back({mid1 + 1, right1, mid2 + 1, right2});
 
-            int pg1 = hp.get1(s+1, s+r);
-            int pg2 = hp.get2(s+1, s+r);
-
-            if (pg1 == sg1 && pg2 == sg2)
-                return i;
-
+            // Early exit if more than one difference is found
+            if (differences > 1) return differences;
         }
-    
-        return -1;
+
+        return differences;
+    }
+
+public:
+    int minStartingIndex(string s, string pattern) {
+        int n = s.size(), m = pattern.size();
+        precompute_powers_and_inverses(max(n, m));
+
+        // Precompute the prefix hashes for both s and pattern
+        vector<long long> shashes = precompute_hashes(s);
+        vector<long long> phashes = precompute_hashes(pattern);
+
+        // Check every substring of s that is of length m
+        for (int i = 0; i <= n - m; ++i) {
+            int diff = countDifferences(i, i + m - 1, 0, m - 1, s, pattern, shashes, phashes);
+            if (diff <= 1) {
+                return i;
+            }
+        }
+
+        return -1;  // No valid substring found
     }
 };
