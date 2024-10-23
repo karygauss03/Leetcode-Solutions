@@ -9,63 +9,55 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-struct TreeNodeHash {
-    std::size_t operator()(const TreeNode* node) const {
-        return reinterpret_cast<std::size_t>(node);  // Use the pointer address for hashing
-    }
-};
-
 class Solution {
 public:
     TreeNode* replaceValueInTree(TreeNode* root) {
         TreeNode* temp = root;
         TreeNode* curNode;
         TreeNode* par;
-        TreeNode* dummyPar = new TreeNode(-1);
+        // TreeNode* dummyPar = new TreeNode(-1);
         vector<int> levelSum;
-        unordered_map<TreeNode*, int, TreeNodeHash> parSum;
-        queue<pair<TreeNode*, TreeNode*>> q;
-        q.push({temp, dummyPar});
+        // unordered_map<TreeNode*, int> parSum;
+        queue<TreeNode*> q;
+        q.push(temp);
         int n, curSum;
         while (!q.empty()) {
             n = q.size();
             curSum = 0;
             for (int i = 0; i < n; ++i) {
-                curNode = q.front().first;
-                par = q.front().second;
+                curNode = q.front();
                 q.pop();
                 curSum += curNode->val;
-                // cout << curNode->val << endl;
-                // cout << par->val << endl;
-                parSum[par] += curNode->val;
-                // cout << parSum[par] << endl;
                 if (curNode->left != nullptr) {
-                    q.push({curNode->left, curNode});
+                    q.push(curNode->left);
                 }
                 if (curNode->right != nullptr) {
-                    q.push({curNode->right, curNode});
+                    q.push(curNode->right);
                 }
             }
             levelSum.push_back(curSum);
         }
         
         temp = root;
-        q.push({temp, dummyPar});
-        int lvl = 0;
+        q.push(temp);
+        temp->val = 0;
+        int lvl = 1;
         while (!q.empty()) {
             n = q.size();
             for (int i = 0; i < n; ++i) {
-                curNode = q.front().first;
-                par = q.front().second;
+                curNode = q.front();
                 q.pop();
-                // cout << curNode->val << " " << par->val << " " << lvl << " " << levelSum[lvl] << " " << parSum[par] << endl;
+                int siblingSum =
+                    (curNode->left ? curNode->left->val : 0) +
+                    (curNode->right ? curNode->right->val : 0);
                 if (curNode->left != nullptr) {
-                    q.push({curNode->left, curNode});
+                    curNode->left->val = levelSum[lvl] - siblingSum;
+                    q.push(curNode->left);
                 }
                 if (curNode->right != nullptr) {
-                    q.push({curNode->right, curNode});
+                    curNode->right->val = levelSum[lvl] - siblingSum;
+                    q.push(curNode->right);
                 }
-                curNode->val = max(0, levelSum[lvl] - parSum[par]);
             }
             ++lvl;
         }
