@@ -1,27 +1,30 @@
+#include<bits/stdc++.h>
+
 class Solution {
-public:
+private:
     int n, m;
-    int dp[205][205];
-    
-    int calculateMinimumHP(vector<vector<int>>& matrix) {
-        n = matrix.size(), m = matrix[0].size();
-        memset(dp, 0, sizeof dp);
-        for (int i = n - 1 ; i >= 0 ; --i) {
-            for (int j = m - 1 ; j >= 0 ; --j) {
-                if (i == n - 1 && j == m - 1) {
-                    dp[i][j] = min(0, matrix[i][j]);
-                }
-                else if (i == n - 1) {
-                    dp[i][j] = min(0, matrix[i][j] + dp[i][j + 1]);
-                }
-                else if (j == m - 1) {
-                    dp[i][j] = min(0, matrix[i][j] + dp[i + 1][j]);
-                }
-                else {
-                    dp[i][j] = min(0, matrix[i][j] + max(dp[i][j + 1], dp[i + 1][j]));
-                }
-            }
+    int solve(int i, int j, vector<vector<int>>& grid, vector<vector<int>>& dp) {
+        if (i == n || j == m) {
+            return INT_MAX;
         }
-        return abs(dp[0][0]) + 1;
+
+        if (i == (n - 1) && j == (m - 1)) {
+            return grid[i][j] < 0 ? -grid[i][j] + 1 : 1;
+        }
+
+        if (dp[i][j] != -1) {
+            return dp[i][j];
+        }
+
+        int right = solve(i, j + 1, grid, dp);
+        int down = solve(i + 1, j, grid, dp);
+        int mn = min(right, down) - grid[i][j];
+        return dp[i][j] = mn <= 0 ? 1 : mn;
+    }
+public:
+    int calculateMinimumHP(vector<vector<int>>& grid) {
+        n = grid.size(), m = grid[0].size();
+        vector<vector<int>> dp(n, vector<int>(m, -1));
+        return solve(0, 0, grid, dp);
     }
 };
