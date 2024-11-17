@@ -7,6 +7,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 ## Array
 |  |
 | ------- |
+| [0174-dungeon-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0174-dungeon-game) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1130-last-stone-weight-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -59,6 +60,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 ## Dynamic Programming
 |  |
 | ------- |
+| [0174-dungeon-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0174-dungeon-game) |
 | [1130-last-stone-weight-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
 ## Queue
 |  |
@@ -76,4 +78,8 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+## Matrix
+|  |
+| ------- |
+| [0174-dungeon-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0174-dungeon-game) |
 <!---LeetCode Topics End-->
