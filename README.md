@@ -15,6 +15,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2716-prime-subtraction-operation) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -74,6 +75,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -89,6 +91,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0787-sliding-puzzle](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0787-sliding-puzzle) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Hash Table
 |  |
 | ------- |
@@ -106,8 +109,14 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0787-sliding-puzzle](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0787-sliding-puzzle) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Graph
 |  |
 | ------- |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [3189-find-champion-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3189-find-champion-ii) |
+## Shortest Path
+|  |
+| ------- |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 <!---LeetCode Topics End-->
