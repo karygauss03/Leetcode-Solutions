@@ -1,24 +1,22 @@
 class Solution {
-public:
-    map<string, multiset<string>> graph;
-    vector<string> res;
-    void dfs(string vertex) 
-    {
-        while(!graph[vertex].empty())
-        {
-            string to_vertex = *(graph[vertex].begin());
-            graph[vertex].erase(graph[vertex].begin());
-            dfs(to_vertex);
+private:
+    unordered_map<string, multiset<string>> adj;
+    vector<string> ans;
+    void dfs(string node) {
+        while(!adj[node].empty()) {
+            string cur = *adj[node].begin();
+            adj[node].erase(adj[node].begin());
+            dfs(cur);
         }
-        res.push_back(vertex);
+        ans.push_back(node);
     }
-
+public:
     vector<string> findItinerary(vector<vector<string>>& tickets) {
-        for (auto ticket : tickets) {
-            graph[ticket[0]].insert(ticket[1]);
+        for (auto& ticket: tickets) {
+            adj[ticket[0]].insert(ticket[1]);
         }
         dfs("JFK");
-        reverse(res.begin(), res.end());
-        return res;
+        reverse(ans.begin(), ans.end());
+        return ans;
     }
 };
