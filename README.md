@@ -118,6 +118,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 ## Graph
 |  |
 | ------- |
+| [0332-reconstruct-itinerary](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
 | [2201-valid-arrangement-of-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [3189-find-champion-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3189-find-champion-ii) |
@@ -128,9 +129,11 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 ## Depth-First Search
 |  |
 | ------- |
+| [0332-reconstruct-itinerary](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
 | [2201-valid-arrangement-of-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2201-valid-arrangement-of-pairs) |
 ## Eulerian Circuit
 |  |
 | ------- |
+| [0332-reconstruct-itinerary](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
 | [2201-valid-arrangement-of-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2201-valid-arrangement-of-pairs) |
 <!---LeetCode Topics End-->
