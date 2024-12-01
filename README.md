@@ -12,6 +12,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1130-last-stone-weight-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
@@ -27,6 +28,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -42,11 +44,13 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 ## Two Pointers
 |  |
 | ------- |
+| [1468-check-if-n-and-its-double-exist](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Sorting
 |  |
 | ------- |
+| [1468-check-if-n-and-its-double-exist](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Stack
 |  |
@@ -96,6 +100,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 ## String
 |  |
