@@ -24,6 +24,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 ## Math
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0292-nim-game) |
 | [2716-prime-subtraction-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2716-prime-subtraction-operation) |
 ## Binary Search
 |  |
@@ -156,4 +157,12 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+## Brainteaser
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0292-nim-game) |
+## Game Theory
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
