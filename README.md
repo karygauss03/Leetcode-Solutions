@@ -53,6 +53,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2232-adding-spaces-to-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Sorting
 |  |
 | ------- |
@@ -114,6 +115,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Simulation
 |  |
 | ------- |
