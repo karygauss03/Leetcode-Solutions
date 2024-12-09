@@ -3,33 +3,27 @@ public:
     vector<bool> isArraySpecial(vector<int>& nums, vector<vector<int>>& queries) {
         vector<bool> ans;
         int n = nums.size();
-        vector<pair<int, int>> ranges;
-        int l = 0, r;
-        for (r = 1; r < n; ++r) {
-            if (nums[r] % 2 == nums[r - 1] % 2) {
-                ranges.push_back({l, r - 1});
-                l = r;
+        vector<int> far(n, 0);
+        int l = 0;
+        for (int i = 1; i < n; ++i) {
+            if (nums[i] % 2 == nums[i - 1] % 2) {
+                for (int j = l; j <= i - 1; ++j) {
+                    far[j] = i - 1;
+                }
+                l = i;
             }
         }
-        ranges.push_back({l, n - 1});
-        // for (auto& r : ranges) {
-        //     cout << r.first << " " << r.second << endl;
-        // }
-        for (auto &q : queries) {
-            auto it = lower_bound(ranges.begin(), ranges.end(), make_pair(q[0], 0),
-                [](const pair<int, int>& range, const pair<int, int>& key) {
-                    return range.second < key.first;
-                });
-            if (it == ranges.end()) {
-                ans.push_back(false);
-                continue;
-            }
-            int end = q[1];
-            if (end <= it->second && end >= it->first) {
+        for (int j = l; j < n; ++j) {
+            far[j] = n - 1;
+        }
+        for (auto& q : queries) {
+            int st = q[0], nd = q[1];
+            if (nd <= far[st]) {
                 ans.push_back(true);
-                continue;
             }
-            ans.push_back(false);
+            else {
+                ans.push_back(false);
+            }
         }
         return ans;
     }
