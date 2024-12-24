@@ -181,6 +181,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0787-sliding-puzzle](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0787-sliding-puzzle) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Graph
 |  |
 | ------- |
@@ -188,6 +189,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2201-valid-arrangement-of-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [3189-find-champion-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3189-find-champion-ii) |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Shortest Path
 |  |
 | ------- |
@@ -199,6 +201,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2201-valid-arrangement-of-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3058-maximum-number-of-k-divisible-components) |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Eulerian Circuit
 |  |
 | ------- |
@@ -239,6 +242,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | ------- |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3058-maximum-number-of-k-divisible-components) |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Binary Tree
 |  |
 | ------- |
