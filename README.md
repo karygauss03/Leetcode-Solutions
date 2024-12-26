@@ -11,6 +11,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0780-max-chunks-to-make-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0787-sliding-puzzle) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1032-satisfiability-of-equality-equations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [1130-last-stone-weight-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -165,6 +166,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 ## String
 |  |
 | ------- |
+| [1032-satisfiability-of-equality-equations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
@@ -192,6 +194,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
+| [1032-satisfiability-of-equality-equations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [2201-valid-arrangement-of-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [3189-find-champion-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3189-find-champion-ii) |
@@ -264,4 +267,8 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+## Union Find
+|  |
+| ------- |
+| [1032-satisfiability-of-equality-equations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 <!---LeetCode Topics End-->
