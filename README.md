@@ -8,6 +8,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0174-dungeon-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0174-dungeon-game) |
+| [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0780-max-chunks-to-make-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0787-sliding-puzzle) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -122,6 +123,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0174-dungeon-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0174-dungeon-game) |
+| [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [1130-last-stone-weight-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
 ## Queue
 |  |
