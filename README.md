@@ -196,6 +196,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0515-find-largest-value-in-each-tree-row](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0787-sliding-puzzle](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0787-sliding-puzzle) |
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -204,6 +205,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
 | [1032-satisfiability-of-equality-equations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [2201-valid-arrangement-of-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -219,6 +221,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0332-reconstruct-itinerary](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2201-valid-arrangement-of-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3058-maximum-number-of-k-divisible-components) |
@@ -284,5 +287,6 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1032-satisfiability-of-equality-equations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 <!---LeetCode Topics End-->
