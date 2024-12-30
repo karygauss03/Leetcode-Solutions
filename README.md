@@ -125,6 +125,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0174-dungeon-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0174-dungeon-game) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [1130-last-stone-weight-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
+| [2562-count-ways-to-build-good-strings](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2562-count-ways-to-build-good-strings) |
 ## Queue
 |  |
 | ------- |
