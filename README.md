@@ -45,6 +45,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0292-nim-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0292-nim-game) |
 | [2716-prime-subtraction-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2716-prime-subtraction-operation) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3655-digit-operations-to-make-two-integers-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3655-digit-operations-to-make-two-integers-equal) |
 ## Binary Search
 |  |
 | ------- |
@@ -76,6 +77,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [2716-prime-subtraction-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2716-prime-subtraction-operation) |
+| [3655-digit-operations-to-make-two-integers-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3655-digit-operations-to-make-two-integers-equal) |
 ## Two Pointers
 |  |
 | ------- |
@@ -143,6 +145,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3655-digit-operations-to-make-two-integers-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3655-digit-operations-to-make-two-integers-equal) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -216,10 +219,12 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [3189-find-champion-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3189-find-champion-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3655-digit-operations-to-make-two-integers-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3655-digit-operations-to-make-two-integers-equal) |
 ## Shortest Path
 |  |
 | ------- |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [3655-digit-operations-to-make-two-integers-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3655-digit-operations-to-make-two-integers-equal) |
 ## Depth-First Search
 |  |
 | ------- |
