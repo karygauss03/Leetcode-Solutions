@@ -41,6 +41,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3651-transformed-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3651-transformed-array) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Math
 |  |
 | ------- |
@@ -48,6 +49,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2716-prime-subtraction-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2716-prime-subtraction-operation) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3655-digit-operations-to-make-two-integers-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3655-digit-operations-to-make-two-integers-equal) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -101,6 +103,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Stack
 |  |
 | ------- |
@@ -294,10 +297,12 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Segment Tree
 |  |
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Union Find
 |  |
 | ------- |
@@ -306,4 +311,12 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
+## Geometry
+|  |
+| ------- |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
+## Enumeration
+|  |
+| ------- |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 <!---LeetCode Topics End-->
