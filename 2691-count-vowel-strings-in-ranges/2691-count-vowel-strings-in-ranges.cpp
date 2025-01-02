@@ -1,6 +1,6 @@
 class Solution {
 private:
-    set<char> vowels = {'a', 'e', 'i', 'o', 'u'};
+    unordered_set<char> vowels = {'a', 'e', 'i', 'o', 'u'};
     bool isStringStartAndEndWithVowel(string s) {
         return vowels.find(s[0]) != vowels.end() && vowels.find(s[s.size() - 1]) != vowels.end();
     }
