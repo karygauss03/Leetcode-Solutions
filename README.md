@@ -40,6 +40,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [3427-special-array-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3427-special-array-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3651-transformed-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3651-transformed-array) |
 ## Math
 |  |
 | ------- |
@@ -203,6 +204,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2692-take-gifts-from-the-richest-pile](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3651-transformed-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3651-transformed-array) |
 ## Breadth-First Search
 |  |
 | ------- |
