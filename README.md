@@ -21,6 +21,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1917-maximum-average-pass-ratio](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [2051-longest-common-subpath](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2051-longest-common-subpath) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
@@ -159,6 +160,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2358-number-of-ways-to-split-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2358-number-of-ways-to-split-array) |
@@ -201,6 +203,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2232-adding-spaces-to-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
