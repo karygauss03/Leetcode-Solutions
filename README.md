@@ -46,6 +46,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3651-transformed-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3651-transformed-array) |
 | [3653-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3653-maximum-subarray-sum-with-length-divisible-by-k) |
+| [3680-count-connected-components-in-lcm-graph](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3680-count-connected-components-in-lcm-graph) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Math
 |  |
@@ -54,6 +55,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2716-prime-subtraction-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2716-prime-subtraction-operation) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3655-digit-operations-to-make-two-integers-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3655-digit-operations-to-make-two-integers-equal) |
+| [3680-count-connected-components-in-lcm-graph](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3680-count-connected-components-in-lcm-graph) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Binary Search
 |  |
@@ -87,6 +89,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | ------- |
 | [2716-prime-subtraction-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2716-prime-subtraction-operation) |
 | [3655-digit-operations-to-make-two-integers-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3655-digit-operations-to-make-two-integers-equal) |
+| [3680-count-connected-components-in-lcm-graph](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3680-count-connected-components-in-lcm-graph) |
 ## Two Pointers
 |  |
 | ------- |
@@ -196,6 +199,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3653-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3653-maximum-subarray-sum-with-length-divisible-by-k) |
+| [3680-count-connected-components-in-lcm-graph](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3680-count-connected-components-in-lcm-graph) |
 ## String
 |  |
 | ------- |
@@ -328,6 +332,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
+| [3680-count-connected-components-in-lcm-graph](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3680-count-connected-components-in-lcm-graph) |
 ## Geometry
 |  |
 | ------- |
