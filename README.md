@@ -18,6 +18,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1524-string-matching-in-an-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1524-string-matching-in-an-array) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -201,6 +202,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1032-satisfiability-of-equality-equations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
+| [1524-string-matching-in-an-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -280,6 +282,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 ## String Matching
 |  |
 | ------- |
+| [1524-string-matching-in-an-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 ## Brainteaser
 |  |
