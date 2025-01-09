@@ -28,6 +28,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2232-adding-spaces-to-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2358-number-of-ways-to-split-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2358-number-of-ways-to-split-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -213,6 +214,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2232-adding-spaces-to-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2300-construct-string-with-repeat-limit](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 | [2465-shifting-letters-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2465-shifting-letters-ii) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -292,6 +294,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | ------- |
 | [1524-string-matching-in-an-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Brainteaser
 |  |
