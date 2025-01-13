@@ -206,6 +206,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2832-find-the-longest-equal-subarray](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2832-find-the-longest-equal-subarray) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3653-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3653-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3680-count-connected-components-in-lcm-graph](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3680-count-connected-components-in-lcm-graph) |
 ## String
@@ -232,6 +233,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Simulation
 |  |
 | ------- |
@@ -320,6 +322,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2300-construct-string-with-repeat-limit](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Tree
 |  |
 | ------- |
