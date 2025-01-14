@@ -1,7 +1,6 @@
 class Solution {
 public:
     vector<int> findThePrefixCommonArray(vector<int>& A, vector<int>& B) {
-        unordered_set<int> setA, setB, common;
         int n = A.size();
         vector<int> C(n, 0);
         long long aMask = 0LL, bMask = 0LL;
