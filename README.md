@@ -42,6 +42,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2699-count-the-number-of-fair-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2716-prime-subtraction-operation) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2792-neighboring-bitwise-xor](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2792-neighboring-bitwise-xor) |
 | [2832-find-the-longest-equal-subarray](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2832-find-the-longest-equal-subarray) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -374,6 +375,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2509-minimize-xor](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2792-neighboring-bitwise-xor](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2792-neighboring-bitwise-xor) |
 ## Trie
 |  |
 | ------- |
