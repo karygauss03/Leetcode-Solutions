@@ -266,6 +266,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | ------- |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0787-sliding-puzzle](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0787-sliding-puzzle) |
+| [0820-find-eventual-safe-states](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
 | [1396-count-servers-that-communicate](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -278,6 +279,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
+| [0820-find-eventual-safe-states](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [1032-satisfiability-of-equality-equations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -298,6 +300,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0820-find-eventual-safe-states](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
 | [1396-count-servers-that-communicate](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -401,4 +404,8 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Topological Sort
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
