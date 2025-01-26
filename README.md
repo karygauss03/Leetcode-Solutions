@@ -51,6 +51,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2832-find-the-longest-equal-subarray](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2832-find-the-longest-equal-subarray) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3427-special-array-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3427-special-array-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -125,6 +126,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Stack
 |  |
@@ -385,6 +387,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1396-count-servers-that-communicate](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3680-count-connected-components-in-lcm-graph](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3680-count-connected-components-in-lcm-graph) |
 ## Geometry
 |  |
