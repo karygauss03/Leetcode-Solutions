@@ -14,7 +14,7 @@ private:
     }
     int solve(int n, int m) {
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-        unordered_set<int> vis;
+        set<int> vis;
         pq.push({n, n});
         while (!pq.empty()) {
             int sum = pq.top().first, cur = pq.top().second;
@@ -50,5 +50,5 @@ public:
         runSieve();
         if (sieve[n] || sieve[m]) return -1;
         return solve(n, m);
-    }   
+    }
 };
