@@ -269,6 +269,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0684-redundant-connection](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0684-redundant-connection) |
 | [0787-sliding-puzzle](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0787-sliding-puzzle) |
 | [0820-find-eventual-safe-states](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
@@ -285,6 +286,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
+| [0684-redundant-connection](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [1032-satisfiability-of-equality-equations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -308,6 +310,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0684-redundant-connection](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
 | [1396-count-servers-that-communicate](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
@@ -388,6 +391,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 ## Union Find
 |  |
 | ------- |
+| [0684-redundant-connection](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0684-redundant-connection) |
 | [1032-satisfiability-of-equality-equations](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
