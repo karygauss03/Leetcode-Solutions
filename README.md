@@ -41,6 +41,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2358-number-of-ways-to-split-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2358-number-of-ways-to-split-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2465-shifting-letters-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2465-shifting-letters-ii) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2685-first-completely-painted-row-or-column](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2685-first-completely-painted-row-or-column) |
@@ -129,6 +130,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -180,6 +182,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1917-maximum-average-pass-ratio](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [2300-construct-string-with-repeat-limit](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -229,6 +232,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2300-construct-string-with-repeat-limit](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2685-first-completely-painted-row-or-column](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2685-first-completely-painted-row-or-column) |
