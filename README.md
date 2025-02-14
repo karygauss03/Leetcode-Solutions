@@ -21,6 +21,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
 | [1396-count-servers-that-communicate](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1477-product-of-the-last-k-numbers](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1524-string-matching-in-an-array) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -73,6 +74,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0292-nim-game) |
+| [1477-product-of-the-last-k-numbers](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [2716-prime-subtraction-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2716-prime-subtraction-operation) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3655-digit-operations-to-make-two-integers-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3655-digit-operations-to-make-two-integers-equal) |
@@ -194,6 +196,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1477-product-of-the-last-k-numbers](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -455,4 +458,12 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0820-find-eventual-safe-states](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+## Design
+|  |
+| ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
+## Data Stream
+|  |
+| ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
