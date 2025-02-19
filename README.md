@@ -107,6 +107,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1917-maximum-average-pass-ratio](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2300-construct-string-with-repeat-limit](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2509-minimize-xor](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2509-minimize-xor) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2716-prime-subtraction-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2716-prime-subtraction-operation) |
@@ -146,6 +147,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0780-max-chunks-to-make-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0780-max-chunks-to-make-sorted) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3447-clear-digits](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3447-clear-digits) |
 ## Monotonic Stack
@@ -270,6 +272,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [2232-adding-spaces-to-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2300-construct-string-with-repeat-limit](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2465-shifting-letters-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2465-shifting-letters-ii) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -473,4 +476,5 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [1160-letter-tile-possibilities](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1160-letter-tile-possibilities) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 <!---LeetCode Topics End-->
