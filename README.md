@@ -33,6 +33,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1917-maximum-average-pass-ratio](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2051-longest-common-subpath](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2051-longest-common-subpath) |
+| [2107-find-unique-binary-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2145-grid-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2145-grid-game) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
@@ -239,6 +240,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1502-construct-k-palindrome-strings](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2107-find-unique-binary-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2300-construct-string-with-repeat-limit) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -269,6 +271,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2107-find-unique-binary-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2232-adding-spaces-to-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -478,5 +481,6 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | ------- |
 | [1160-letter-tile-possibilities](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
+| [2107-find-unique-binary-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 <!---LeetCode Topics End-->
