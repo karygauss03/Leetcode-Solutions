@@ -25,6 +25,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1477-product-of-the-last-k-numbers](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1524-string-matching-in-an-array) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1876-map-of-highest-peak](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1876-map-of-highest-peak) |
@@ -77,6 +78,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | ------- |
 | [0292-nim-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0292-nim-game) |
 | [1477-product-of-the-last-k-numbers](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2716-prime-subtraction-operation](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2716-prime-subtraction-operation) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3655-digit-operations-to-make-two-integers-equal](https://github.com/karygauss03/Leetcode-Solutions/tree/master/3655-digit-operations-to-make-two-integers-equal) |
@@ -176,6 +178,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [1025-minimum-cost-for-tickets](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1025-minimum-cost-for-tickets) |
 | [1130-last-stone-weight-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2562-count-ways-to-build-good-strings](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2562-count-ways-to-build-good-strings) |
 ## Queue
 |  |
@@ -202,6 +205,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1477-product-of-the-last-k-numbers](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2145-grid-game) |
