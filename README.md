@@ -28,6 +28,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
+| [1849-maximum-absolute-sum-of-any-subarray](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1876-map-of-highest-peak](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -179,6 +180,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1025-minimum-cost-for-tickets](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1025-minimum-cost-for-tickets) |
 | [1130-last-stone-weight-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1849-maximum-absolute-sum-of-any-subarray](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2562-count-ways-to-build-good-strings](https://github.com/karygauss03/Leetcode-Solutions/tree/master/2562-count-ways-to-build-good-strings) |
 ## Queue
 |  |
