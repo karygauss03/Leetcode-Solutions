@@ -21,6 +21,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 | [1130-last-stone-weight-ii](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1308-smallest-string-with-swaps](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1308-smallest-string-with-swaps) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1396-count-servers-that-communicate](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1477-product-of-the-last-k-numbers](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
@@ -91,6 +92,7 @@ This is my Leetcode profile https://leetcode.com/karygauss03/
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/karygauss03/Leetcode-Solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/karygauss03/Leetcode-Solutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
